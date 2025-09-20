@@ -1,0 +1,99 @@
+cat > ~/.config/.gitignore <<'EOF'
+# Ignore everything by default
+*
+
+# keep the .gitignore itself and a few top-level dotfiles
+!.gitignore
+!.dmenurc
+!mimeapps.list
+!pavucontrol.ini
+!QtProject.conf
+!user-dirs.dirs
+!user-dirs.locale
+!tool_state
+!starship.toml
+
+# -----------------------------
+# Keep these config folders (allow folder + contents)
+!alacritty/
+!alacritty/**
+!btop/
+!btop/**
+!cava/
+!cava/**
+!fastfetch/
+!fastfetch/**
+!fish/
+!fish/**
+!gtk-3.0/
+!gtk-3.0/**
+!gtk-4.0/
+!gtk-4.0/**
+!hypr/
+!hypr/**
+!kitty/
+!kitty/**
+!Kvantum/
+!Kvantum/**
+!mako/
+!mako/**
+!matugen/
+!matugen/**
+!micro/
+!micro/**
+!ml4w/
+!ml4w/**
+!qt5ct/
+!qt5ct/**
+!rofi/
+!rofi/**
+!swaylock/
+!swaylock/**
+!swaync/
+!swaync/**
+!waybar/
+!waybar/**
+!wlogout/
+!wlogout/**
+!wofi/
+!wofi/**
+!spicetify/
+!spicetify/**
+
+# -----------------------------
+# Explicitly ignore large / private folders
+.android/
+Android\ Open\ Source\ Project/
+anytype/
+autostart/
+BetterDiscord/
+clangd/
+dconf/
+discord/
+Electron/
+glib-2.0/
+go/
+Google/
+google-chrome-for-testing/
+htop/
+ibus/
+input-remapper-2/
+keepassxc/
+pulse/
+QtProject/
+Raspberry\ Pi/
+spotify/
+StardewValley/
+Thunar/
+unity3d/
+vesktop/
+vivaldi/
+VSCodium/
+xfce4/
+xpad/
+YoutubeMusic/
+
+# Ignore git folder inside .config
+.git/
+EOF
+
