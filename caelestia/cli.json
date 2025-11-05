@@ -1,0 +1,22 @@
+{
+    "theme": {
+        "enableTerm": true,
+        "enableHypr": true,
+        "enableDiscord": false,
+        "enableSpicetify": false,
+        "enableFuzzel": true,
+        "enableBtop": true,
+        "enableGtk": true,
+        "enableQt": true
+    },
+    "toggles": {
+        "communication": {
+            "discord": {
+                "enable": true,
+                "match": [{ "class": "discord" }],
+                "command": ["discord"],
+                "move": true
+            }
+        }
+    }
+}
