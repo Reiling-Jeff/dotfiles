@@ -248,7 +248,7 @@
         "name": "Light",
         "icon": "light_mode",
         "description": "Change the scheme to light mode",
-        "command": ["~/.local/bin/set-darkmode.sh", "light"],
+        "command": ["/home/yuuto/.local/bin/set-darkmode.sh", "light"],
         "enabled": true,
         "dangerous": false
       },
@@ -256,7 +256,7 @@
         "name": "Dark",
         "icon": "dark_mode",
         "description": "Change the scheme to dark mode",
-        "command": ["~/.local/bin/set-darkmode.sh", "dark"],
+        "command": ["/home/yuuto/.local/bin/set-darkmode.sh", "dark"],
         "enabled": true,
         "dangerous": false
       },
@@ -299,6 +299,14 @@
         "command": ["systemctl", "suspend-then-hibernate"],
         "enabled": true,
         "dangerous": false
+      },
+      {
+        "name": "Command",
+        "icon": "terminal",
+        "description": "Run any command",
+        "command": ["/home/yuuto/.local/bin/caelestia-run.sh"],
+        "enabled": true,
+        "dangerous": true
       }
     ],
     "dragThreshold": 50,
